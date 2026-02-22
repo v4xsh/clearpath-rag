@@ -73,10 +73,10 @@ The backend is publicly deployed on Railway:
 **Base URL:** `https://clearpath-rag-production.up.railway.app`
 
 | Endpoint | Method | Description |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- |  
 | `/health` | `GET` | System status check |
 | `/query` | `POST` | Assignment-compliant response format |
-| `/api/v1/chat` | `POST` | Internal endpoint for frontend telemetry |
+| `/docs` | `GET` | Interactive API Documentation (Swagger UI) |
 
 ### Deployment Notes
 The Railway instance runs on a shared CPU environment. Because sentence-transformer embeddings and the 70B model are CPU-bound at inference time, complex queries may exhibit higher latency in the hosted environment compared to local execution.
