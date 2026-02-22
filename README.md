@@ -1,5 +1,6 @@
 
 # Clearpath Support Assistant
+Video - https://www.youtube.com/watch?v=pTTJUuh6WzY
 
 ## Overview
 
